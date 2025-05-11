@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شحن وخدمات</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+      color: white;
+      text-align: center;
+      background-image: url('https://i.imgur.com/NXAvqVm.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+    }
+    header {
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.7);
+      border-bottom: 2px solid #444;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+    .username {
+      font-size: 20px;
+      color: #00ffe1;
+      font-weight: bold;
+      text-shadow: 0 0 5px #00ffe1;
+    }
+    .developer {
+      font-size: 14px;
+      color: #ccc;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 30px 20px;
+    }
+    .service {
+      background: rgba(0,0,0,0.6);
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 255, 225, 0.2);
+      font-size: 22px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.3s, box-shadow 0.3s;
+      border: 1px solid #00ffe1;
+    }
+    .service:hover {
+      transform: scale(1.07);
+      box-shadow: 0 0 25px rgba(0, 255, 225, 0.5);
+      background-color: rgba(0,0,0,0.8);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="username">@d8kh</div>
+    <div class="developer">تطوير: أحمد موفق</div>
+  </header>
+  <div class="container">
+    <div class="service" onclick="window.location.href='pubg.html'">💥 شحن شدات ببجي</div>
+    <div class="service">🎲 شحن لودو</div>
+    <div class="service">📸 رشق متابعين ولايكات انستا</div>
+  </div>
+</body>
+</html>
